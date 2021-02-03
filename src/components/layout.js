@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
         }
       `}
       render={data => (
-        <div style={{ minHeight: '100vh', backgroundColor: '#FFF' }}>
+        <div style={{ minHeight: '100vh', background: '#FFFFFF' }}>
           <Header siteTitle={data.site.siteMetadata.title} />
           <div
             style={{

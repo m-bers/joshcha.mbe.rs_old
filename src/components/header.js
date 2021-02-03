@@ -29,11 +29,12 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
   },
   appBar: {
+    color: '#000000',
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
-    background: 'linear-gradient(to right,  #663399, #5B72FF)',
+    background: 'rgba(0,0,0,0)',
   },
   appBarShift: {
     width: `calc(100% - ${drawerWidth}px)`,
@@ -153,7 +154,7 @@ const Header = ({ siteTitle }) => {
               <ListItemIcon>
                 <ListIcon />
               </ListItemIcon>
-              <ListItemText>Components</ListItemText>
+              <ListItemText>Blog</ListItemText>
             </ListItem>
           </Link>
         </List>

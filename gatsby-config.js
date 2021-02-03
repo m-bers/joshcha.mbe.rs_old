@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Material UI Starter`,
+    title: `Josh's Personal Site`,
     description: `Kick off your next, great Gatsby project with this Material UI starter. This barebones starter ships with the main Gatsby and Material UI configuration files you might need.`,
     author: `@dominicabela`,
+    pathPrefix: "/joshcha.mbe.rs"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
